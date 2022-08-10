@@ -48,6 +48,15 @@
         flex-direction: column;
     }
     .form-contact input {
-        width: 30vw;
+        width: 55vw;
+        font-size: 1rem;
+    }
+    .form-contact button {
+        width: 25vw;
+        margin-left: 1rem;
+    }
+    .contact img {
+        width: 15vw;
+        margin: 2rem;
     }
 }

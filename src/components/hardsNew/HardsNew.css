@@ -1,5 +1,6 @@
 .gallery-wrapper img {
     width: 10vw;
+    margin: 0 5rem;
 }
 
 .gallery-wrapper {
@@ -13,8 +14,12 @@
     margin: 7rem auto;
 }
 
+span {
+    color: darkgray;
+}
+
 .container h2 {
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 5rem;
     letter-spacing: 0.5rem;
     text-align: center;
@@ -63,7 +68,6 @@
 .card-hard {
     border-radius: 25px;
     background-color:rgba(234, 228, 228, 0.81);
-    padding: 6rem;
     height: 60vh;
     width: 20vw;
     margin: 0 2.5rem;
@@ -73,10 +77,14 @@
 }
 
 .card-hard h1 {
+    padding: 2.5rem;
+    background-color: black;
+    border-radius: 20px 20px 0 0;
     font-size: 2.5rem;
+    height: 25vh;
     font-family: 'Roboto', sans-serif;
-    color: black;
-     margin-bottom: 7rem
+    color: white;
+    margin-bottom: 3rem
 }
 
 .card-hard:hover {
@@ -100,7 +108,6 @@
     
     .card-hard {
         width: 70vw;
-        padding: 3rem;
     }
 
     .card-hard h1 {
@@ -110,7 +117,7 @@
 
     .gallery-wrapper img {
         width:40vw;
-        margin: auto;
+        margin: 0 3.5rem;
     }
 
     .arrow-left, .arrow-right {

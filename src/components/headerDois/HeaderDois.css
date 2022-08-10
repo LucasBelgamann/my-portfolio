@@ -3,9 +3,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-size: 1.6rem;
-}
 li {
     list-style: none;
 }
@@ -20,7 +17,7 @@ a {
     height: 8vh;
     width: 100vw;
     background-color: #595A59;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .nav_pai {
@@ -63,6 +60,7 @@ a {
         top: 7vh;
         right: 0;
         width: 50%;
+        border-radius: 15px;
         background-color: #a4a6a4;
         flex-direction: column;
         transform: translateX(100%);

@@ -14,7 +14,7 @@
 
 .text-about {
     width: 40vw;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: justify;
     color: grey;
     font-family: 'Roboto', sans-serif;
@@ -65,7 +65,7 @@
     }
     .line {
         width: 40vw;
-        margin: 2rem auto 2rem;
+        margin: 1rem auto 2rem;
     }
     .translate {
         width: 9vw;
