@@ -1,0 +1,68 @@
+.card-certificate {
+    height: 45vh;
+    border-radius: 20px;
+    width: 20vw;
+    background-color: rgba(234, 228, 228, 0.81);
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+
+    transition: all .3s cubic-bezier(0,0,.5,1);
+}
+
+.card-certificate:hover {
+    width: 35vw;
+    height: 50vh;
+    box-shadow: 8px 11px 5px 0px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 8px 11px 5px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 8px 11px 5px 0px rgba(0,0,0,0.38);
+}
+
+.desc {
+    width: 15vw;
+    font-size: 2rem;
+}
+
+
+.card-certificate img {
+    width: 15vw;
+    margin: 3rem;
+}
+
+.pai-certificates {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.btn-certificate {
+    background-color: #0071e3;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-weight:bold;
+    font-size: 20px;
+    height: 5vh;
+    width: 7vw;
+    margin-bottom: 3rem;
+
+    transition-property: background-color;
+    transition-duration: 0.8s;
+}
+
+.btn-certificate:hover {
+    background-color: transparent;
+    border: #0071e3 solid 4px;
+    cursor: pointer;
+}
+
+.btn-certificate a:hover {
+    color: black;
+}
+
+
+.img-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,120 @@
+.gallery-wrapper img {
+    width: 10vw;
+}
+
+.gallery-wrapper {
+    overflow-x: auto;
+}
+
+.container {
+    position: relative;
+    padding: 15px;
+    max-width: 70vw;
+    margin: 7rem auto;
+}
+
+.container h2 {
+    font-size: 5rem;
+    margin-bottom: 5rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.arrow-left, .arrow-right {
+    position: absolute;
+    width: 5vw;
+    left: 0;
+    right: auto;
+    margin-top: 17rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border: none;
+    z-index: 1;
+    opacity: 0.4;
+
+    transition: opacity, transform, translateY;
+    transition-duration: 1s;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+    opacity: 0.7;
+}
+
+.arrow-right {
+    left: auto;
+    right: 0;
+}
+
+.item {
+    flex-shrink: 0;
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+.card-hard {
+    border-radius: 25px;
+    background-color:rgba(234, 228, 228, 0.81);
+    padding: 6rem;
+    height: 60vh;
+    width: 20vw;
+    margin: 0 2.5rem;
+
+    transition: box-shadow;
+    transition-duration: 1s;
+}
+
+.card-hard h1 {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+     margin-bottom: 7rem
+}
+
+.card-hard:hover {
+    transform: translateY(-2px);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 29px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.gallery {
+    height: 100vh;
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .container h2 {
+        font-size: 2rem;
+        letter-spacing: 0.3rem;
+    }
+
+    .container {
+        max-width: 85vw;
+    }
+    
+    .card-hard {
+        width: 70vw;
+        padding: 3rem;
+    }
+
+    .card-hard h1 {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .gallery-wrapper img {
+        width:40vw;
+        margin: auto;
+    }
+
+    .arrow-left, .arrow-right {
+        width: 15vw;
+        margin-top: 10rem;
+    }
+}

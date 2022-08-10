@@ -1,0 +1,53 @@
+.pai-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:40vh;
+    width: 100vw;
+    background-color: rgba(192, 187, 187, 0.528);
+}
+
+.contact img {
+    width: 5vw;
+    margin-left: 5rem;
+}
+
+.form-contact input {
+    width: 30vw;
+    border: none;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    height: 8vh;
+}
+
+.form-contact button {
+    background-color: #0071e3;
+    font-weight: bolder;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    margin-left: 4rem;
+    border: none;
+    height: 6vh;
+    width: 10vw;
+    cursor: pointer;
+
+    transition-property: background-color, transform;
+    transition-duration: 0.9s;
+}
+
+.form-contact button:hover {
+    border: #0071e3 solid 4px;
+    background-color: transparent;
+    color: black;
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .pai-contact {
+        flex-direction: column;
+    }
+    .form-contact input {
+        width: 30vw;
+    }
+}

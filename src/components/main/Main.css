@@ -1,0 +1,184 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.trivia-logo {
+    width: 7vw;
+}
+
+.btn-card-projects {
+    background-color: #0071e3;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-weight:bold;
+    font-size: 20px;
+    height: 5vh;
+    width: 7vw;
+
+    transition-property: background-color;
+    transition-duration: 0.8s;
+}
+
+.container-squad h3 {
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 1500;
+    margin-bottom: 2.5rem;
+    letter-spacing: 4px;
+}
+
+.squad {
+    border-radius: 20px;
+    background-color:  rgba(234, 228, 228, 0.81);
+    height: 45vh;
+    width: 20vw;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 6px 14px rgb(0 0 0 / 15%);
+
+    /* transition-property: background-color, width, height;
+    transition-duration: 1s; */
+    transition: all .3s cubic-bezier(0,0,.5,1);
+}
+
+.description {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    height: 5vh;
+    width: 15vw;
+    margin-left: 4rem;
+}
+
+.squad:hover {
+   width: 40vw;
+   height: 55vh;
+   box-shadow: 8px 11px 5px 0px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 8px 11px 5px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 8px 11px 5px 0px rgba(0,0,0,0.38);
+}
+.btn-card-projects:hover {
+    background-color: transparent;
+    border: #0071e3 solid 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.comming {
+    margin-top: 2rem;
+    width: 30vw;
+    animation: bounce 1s infinite;
+}
+
+.text {
+    text-align: center;
+    font-size: 1.7rem;
+    color: #0071e3;
+    font-weight: 1500;
+    margin-bottom: 2.5rem;
+    letter-spacing: 4px;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+ } 
+
+.pai-back {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-and-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:black;
+    padding: 1.5rem 5rem;
+    border-radius: 15px;
+}
+
+.logo-and-btn img {
+    margin-bottom: 2.5rem;
+}
+
+.container-squad {
+    display: flex;
+    align-items: center;
+}
+
+.o-pai {
+    display: flex;
+    justify-content: center;
+}
+
+.o-pai .squad {
+    margin-left: 2rem;
+}
+
+@media screen and (min-width: 900px) {
+    .phone {
+        display: none;
+    }
+}
+@media screen and (min-width: 370px) and (max-width: 900px) {
+    .o-pai-mobile {
+        display: flex;
+        flex-direction: column;
+        margin-top: 7rem;
+    }
+
+    .media {
+        display: none;
+     }
+
+    .trivia-logo-mobile {
+        width: 20vw;
+    }
+
+    .squad-mobile {
+        width: 85vw;
+        height: 50vh;
+        background-color: #191919;
+        margin: 2rem;
+        border-radius: 15px;;
+    }
+
+    .logo-and-btn-mobile {
+        width: 70vw;
+        border-radius: 15px;
+        height: 45vh;
+        margin: 1.2rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color:#101010;
+    }
+
+    .logo-and-btn-mobile h3 {
+        color: white;
+        font-size: 1.5rem;
+        letter-spacing: 4px;
+    }
+
+    .btn-card-projects-mobile {
+        width: 28vw;
+        border-radius: 4px;
+        height: 4vh;
+        font-size: 15px;
+        background-color: #f9004d;
+        border: none;
+        font-weight: bold;
+    }
+
+    .description-mobile {
+        color: white;
+        width: 35vw;
+        text-align: justify;
+    }
+}

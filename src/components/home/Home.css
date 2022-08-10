@@ -1,0 +1,35 @@
+.name-title {
+    color: white;
+    font-size: 6rem;
+    text-align: center;
+}
+
+.dark-mode {
+    width: 5vw;
+}
+
+h5 {
+    color: darkgoldenrod;
+}
+
+.pai-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #00203f;
+    height: 100vh;
+    width: 100vw;
+}
+
+.foto-perfil img {
+    width: 20vw;
+}
+
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .name-title {
+        font-size: 1.9rem;
+    }
+    .pai-home {
+        height: 70vh;
+    }
+}
