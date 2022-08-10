@@ -125,60 +125,23 @@ a {
         display: none;
     }
 }
-@media screen and (min-width: 370px) and (max-width: 900px) {
-    .o-pai-mobile {
-        display: flex;
+@media screen and (min-width: 375px) and (max-width: 636px) {
+    .logo-and-btn {
+        width: 55vw;
+    }
+    .o-pai {
         flex-direction: column;
-        margin-top: 7rem;
-    }
-
-    .media {
-        display: none;
-     }
-
-    .trivia-logo-mobile {
-        width: 20vw;
-    }
-
-    .squad-mobile {
-        width: 85vw;
-        height: 50vh;
-        background-color: #191919;
-        margin: 2rem;
-        border-radius: 15px;;
-    }
-
-    .logo-and-btn-mobile {
-        width: 70vw;
-        border-radius: 15px;
-        height: 45vh;
-        margin: 1.2rem auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
         align-items: center;
-        background-color:#101010;
     }
-
-    .logo-and-btn-mobile h3 {
-        color: white;
-        font-size: 1.5rem;
-        letter-spacing: 4px;
+    .squad {
+        width: 70vw;
+        height: 50vh;
     }
-
-    .btn-card-projects-mobile {
-        width: 28vw;
-        border-radius: 4px;
-        height: 4vh;
-        font-size: 15px;
-        background-color: #f9004d;
-        border: none;
-        font-weight: bold;
+    .btn-card-projects {
+        width: 30vw;
+        font-size: 1rem;
     }
-
-    .description-mobile {
-        color: white;
-        width: 35vw;
-        text-align: justify;
+    .trivia-logo {
+        width: 20vw;
     }
 }

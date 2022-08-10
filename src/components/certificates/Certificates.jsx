@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import HeaderDois from '../headerDois/HeaderDois'
 import certificate from "./images3/certificate.png";
+import certTrybe from "./images3/trybeCert.jpg";
 import "./Certificates.css";
 
 export default function Certificates() {
