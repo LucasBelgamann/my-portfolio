@@ -19,7 +19,7 @@ function NavBar() {
                 <li className="nav_item"><a href='#title-hardss' className="nav_link">Hards Skills</a></li>
                 <li className="nav_item"><a href="#projects" className="nav_link">Projects</a></li>
                 <li className="nav_item"><Link to='/certificates' className="nav_link">Certificates</Link></li>
-                <li className="nav_item"><a href="#contact" className="nav_link">Contact</a></li>
+                <li className="nav_item"><a href="#footer" className="nav_link">Contact</a></li>
             </ul>
             <div onClick={ navToggle } className="nav_toggler">
                 <div className="line1"></div>

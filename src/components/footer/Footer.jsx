@@ -6,7 +6,7 @@ import './Footer.css';
 export default function Footer() {
   return (
     <div>
-      <div className='pai-contact'>
+      <div className='pai-contact' id="footer">
         <div className='form-contact'>
             <form>
                 <input type='email' placeholder='Digite seu e-mail' />
