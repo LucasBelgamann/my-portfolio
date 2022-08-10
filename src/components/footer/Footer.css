@@ -13,12 +13,25 @@
 }
 
 .form-contact input {
-    width: 30vw;
+    width: 20vw;
+    margin-bottom: 1.5rem;
     border: none;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-radius: 20px;
     height: 8vh;
+}
+
+.form-contact textarea {
+    width: 20vw;
+    height: 15vh;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+}
+
+.form {
+    display: flex;
 }
 
 .form-contact button {
@@ -46,17 +59,29 @@
 @media screen and (min-width: 375px) and (max-width: 667px) {
     .pai-contact {
         flex-direction: column;
+        height: 50vh;
     }
     .form-contact input {
-        width: 55vw;
+        width: 60vw;
+        height: 5vh;
         font-size: 1rem;
     }
     .form-contact button {
         width: 25vw;
-        margin-left: 1rem;
+        margin-left: 4rem;
     }
     .contact img {
         width: 15vw;
         margin: 2rem;
+    }
+
+    .form-contact textarea {
+        width: 60vw;
+        height: 10vh;
+        margin-bottom: 2rem;
+    }
+
+    .form {
+        flex-direction: column;
     }
 }

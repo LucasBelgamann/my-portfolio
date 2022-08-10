@@ -8,9 +8,14 @@ export default function Footer() {
     <div>
       <div className='pai-contact' id="footer">
         <div className='form-contact'>
-            <form>
-                <input type='email' placeholder='Digite seu e-mail' />
-                <button type='button'>Submit</button>
+            <form action="https://api.staticforms.xyz/submit" method='post'>
+                <input type="hidden" name="accessKey" value="a90e6195-838c-47e5-90c0-80ba0cda36fd" />
+                <input type="hidden" name="redirectTo" value="https://portfolio-beta-navy.vercel.app/#footer"></input>
+                <div className='form'>
+                  <input type='text' name="name" placeholder='Enter your name' />
+                  <textarea name="message" className='text-area' placeholder='Enter your menssage'/>
+                </div>
+                  <button type='submit'>Submit</button>
             </form>
         </div>
         <div className='contact'>
