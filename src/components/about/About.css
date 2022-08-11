@@ -52,7 +52,7 @@
     color: #2fc18c;
 }
 
-@media screen and (min-width: 375px) and (max-width: 667px) {
+@media screen and (min-width: 100px) and (max-width: 667px) {
     .text-about {
         font-size: 1rem;
         height: 20vh;
