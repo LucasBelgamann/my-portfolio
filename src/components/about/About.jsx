@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import about from './aboutME.jpeg';
+import lucas from './portLucas.jpeg'
 import './About.css';
 import translate from './translate.png'
 
@@ -14,7 +15,7 @@ export default function About() {
     <div>
       <div className='about' id="about-me">
         <div>
-            <img src={ about } alt="about" className='foto-about' />
+            <img src={ lucas } alt="about" className='foto-about' />
         </div>
         <div className='text-about'>
           <h1 className='title-about'>About me</h1>
