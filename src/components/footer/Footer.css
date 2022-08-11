@@ -42,6 +42,11 @@
     align-items: center;
 }
 
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
 .form-contact button {
     background-color: #0071e3;
     font-weight: bolder;
@@ -49,6 +54,7 @@
     font-size: 20px;
     color: white;
     margin-left: 4rem;
+    margin-bottom: 15px;
     border: none;
     height: 6vh;
     width: 10vw;
@@ -64,10 +70,20 @@
     color: black;
 }
 
+.form-contact img {
+    width: 1.5vw;
+    margin-right: 15px;
+}
+
+.btns-form {
+    display: flex;
+    flex-direction: column;
+}
+
 @media screen and (min-width: 100px) and (max-width: 667px) {
     .pai-contact {
         flex-direction: column;
-        height: 60vh;
+        height: 80vh;
     }
     .form-contact input {
         width: 60vw;
@@ -76,7 +92,8 @@
         margin-left: 3rem;
     }
     .form-contact button {
-        width: 25vw;
+        width: 45vw;
+        height: 8vh;
         margin-right: 4rem;
     }
     .contact img {
@@ -86,8 +103,10 @@
 
     .form-contact textarea {
         width: 60vw;
+        padding: 30px;
         height: 10vh;
         margin-bottom: 2rem;
+        margin-left: 3rem;
     }
 
     .form {
