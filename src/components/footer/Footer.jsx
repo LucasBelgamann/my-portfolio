@@ -14,8 +14,8 @@ export default function Footer() {
                 <div className='form'>
                   <input type='text' name="name" placeholder='Enter your name' />
                   <textarea name="message" className='text-area' placeholder='Enter your menssage'/>
-                </div>
                   <button type='submit'>Submit</button>
+                </div>
             </form>
         </div>
         <div className='contact'>

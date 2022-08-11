@@ -15,6 +15,7 @@
 .form-contact input {
     width: 20vw;
     margin-bottom: 1.5rem;
+    margin-right: 3rem;
     border: none;
     text-align: center;
     font-size: 1rem;
@@ -28,10 +29,12 @@
     text-align: center;
     border-radius: 15px;
     border: none;
+    resize: none;
 }
 
 .form {
     display: flex;
+    align-items: center;
 }
 
 .form-contact button {
@@ -59,16 +62,17 @@
 @media screen and (min-width: 375px) and (max-width: 667px) {
     .pai-contact {
         flex-direction: column;
-        height: 50vh;
+        height: 60vh;
     }
     .form-contact input {
         width: 60vw;
         height: 5vh;
         font-size: 1rem;
+        margin-left: 3rem;
     }
     .form-contact button {
         width: 25vw;
-        margin-left: 4rem;
+        margin-right: 4rem;
     }
     .contact img {
         width: 15vw;
