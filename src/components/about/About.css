@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    width: 65vw;
+    width: 70vw;
     margin: auto;
 }
 
@@ -13,12 +13,12 @@
 }
 
 .text-about {
-    width: 40vw;
+    width: 45vw;
     font-size: 1.4rem;
     text-align: justify;
     color: grey;
     font-family: 'Roboto', sans-serif;
-    line-height: 3rem;
+    line-height: 2.5rem;
 }
 
 .title-about {
