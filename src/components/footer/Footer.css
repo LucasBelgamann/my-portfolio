@@ -7,6 +7,10 @@
     background-color: rgba(192, 187, 187, 0.528);
 }
 
+.form-contact textarea::-webkit-scrollbar {
+    display: none;
+  }
+
 .contact img {
     width: 5vw;
     margin-left: 5rem;
@@ -18,7 +22,7 @@
     margin-right: 3rem;
     border: none;
     text-align: center;
-    font-size: 1rem;
+    font-size: 20px;
     border-radius: 20px;
     height: 8vh;
 }
@@ -27,6 +31,7 @@
     width: 20vw;
     height: 15vh;
     text-align: center;
+    padding: 65px;
     border-radius: 15px;
     border: none;
     resize: none;
@@ -67,7 +72,7 @@
     .form-contact input {
         width: 60vw;
         height: 5vh;
-        font-size: 1rem;
+        font-size: 20px;
         margin-left: 3rem;
     }
     .form-contact button {

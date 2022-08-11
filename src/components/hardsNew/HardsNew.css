@@ -19,7 +19,7 @@ span {
 }
 
 .container h2 {
-    font-size: 4rem;
+    font-size: 55px;
     margin-bottom: 5rem;
     letter-spacing: 0.5rem;
     text-align: center;
@@ -80,7 +80,7 @@ span {
     padding: 2.5rem;
     background-color: black;
     border-radius: 20px 20px 0 0;
-    font-size: 2.5rem;
+    font-size: 40px;
     height: 25vh;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -98,7 +98,7 @@ span {
 
 @media screen and (min-width: 100px) and (max-width: 667px) {
     .container h2 {
-        font-size: 2rem;
+        font-size: 45px;
         letter-spacing: 0.3rem;
     }
 
@@ -111,7 +111,7 @@ span {
     }
 
     .card-hard h1 {
-        font-size: 1.8rem;
+        font-size: 40px;
         margin-bottom: 2rem;
     }
 

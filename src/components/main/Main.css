@@ -22,7 +22,7 @@ a {
 }
 
 .container-squad h3 {
-    font-size: 1.7rem;
+    font-size: 28px;
     color: white;
     font-weight: 1500;
     margin-bottom: 2.5rem;
@@ -32,7 +32,7 @@ a {
 .squad {
     border-radius: 20px;
     background-color:  rgba(234, 228, 228, 0.81);
-    height: 45vh;
+    height: 49vh;
     width: 20vw;
     margin-top: 8rem;
     display: flex;
@@ -75,7 +75,7 @@ a {
 
 .text {
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 25px;
     color: #0071e3;
     font-weight: 1500;
     margin-bottom: 2.5rem;
@@ -139,7 +139,7 @@ a {
     }
     .btn-card-projects {
         width: 30vw;
-        font-size: 1rem;
+        font-size: 15px;
     }
     .trivia-logo {
         width: 20vw;

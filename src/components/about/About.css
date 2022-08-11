@@ -14,11 +14,11 @@
 
 .text-about {
     width: 45vw;
-    font-size: 1.4rem;
+    font-size: 30px;
     text-align: justify;
     color: grey;
     font-family: 'Roboto', sans-serif;
-    line-height: 2.5rem;
+    line-height: 3rem;
 }
 
 .title-about {
@@ -54,7 +54,7 @@
 
 @media screen and (min-width: 100px) and (max-width: 667px) {
     .text-about {
-        font-size: 1rem;
+        font-size: 18px;
         height: 20vh;
         width: 80vw;
         line-height: 1.5rem;

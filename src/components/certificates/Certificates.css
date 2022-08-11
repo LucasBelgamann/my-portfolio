@@ -20,7 +20,7 @@
 
 .desc {
     width: 15vw;
-    font-size: 2rem;
+    font-size: 25px;
 }
 
 
@@ -77,7 +77,7 @@
     }
     .btn-certificate {
         width: 30vw;
-        font-size: 1rem;
+        font-size: 15px;
     }
     .card-certificate img {
         width: 30vw;
