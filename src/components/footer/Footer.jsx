@@ -33,8 +33,8 @@ export default function Footer() {
               <div className="btns-form">
                 <button type="submit">Submit</button>
                 <button type="button" className="down">
-                <a href={ curriculo } download>
-                  DOWNLOAD CV
+                  <a href={ curriculo } download>
+                    DOWNLOAD CV
                   </a>
                 </button>
               </div>
