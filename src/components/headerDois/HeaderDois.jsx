@@ -16,8 +16,8 @@ function NavBar() {
             <ul className={ active }>
                 <li className="nav_item"> <Link to="/" className="nav_link">Home</Link></li>
                 <li className="nav_item"> <a href='#about-me' className="nav_link">About me</a></li>
-                <li className="nav_item"><a href='#title-hardss' className="nav_link">Hards Skills</a></li>
                 <li className="nav_item"><a href="#projects" className="nav_link">Projects</a></li>
+                <li className="nav_item"><a href='#title-hardss' className="nav_link">Hards Skills</a></li>
                 <li className="nav_item"><Link to='/certificates' className="nav_link">Certificates</Link></li>
                 <li className="nav_item"><a href="#footer" className="nav_link">Contact</a></li>
             </ul>
