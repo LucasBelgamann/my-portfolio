@@ -3,6 +3,10 @@
     margin: 0 5rem;
 }
 
+.gallery a {
+    height: 50vh;
+}
+
 .gallery-wrapper {
     overflow-x: auto;
 }
@@ -10,6 +14,7 @@
 .container {
     position: relative;
     padding: 15px;
+    height: 100vh;
     max-width: 70vw;
     margin: 7rem auto;
 }

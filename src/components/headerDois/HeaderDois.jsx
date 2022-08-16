@@ -16,7 +16,7 @@ function NavBar() {
         <nav className="nav">
             <a href="#" className="nav_brand">{isTranslate ? 'Portfólio' : 'Portfolio'}</a>
             <ul className={ active }>
-                <li className="nav_item"> <Link to="/" className="nav_link">Home</Link></li>
+                <li className="nav_item"> <Link to="/" className="nav_link">{isTranslate ? 'Início' : 'Home'}</Link></li>
                 <li className="nav_item"> <a href='#about-me' className="nav_link">{isTranslate ? 'Sobre mim' : 'About me'}</a></li>
                 <li className="nav_item"><a href="#projects" className="nav_link">{isTranslate ? 'Projetos' : 'Projects'}</a></li>
                 <li className="nav_item"><a href='#title-hardss' className="nav_link">Hards Skills</a></li>

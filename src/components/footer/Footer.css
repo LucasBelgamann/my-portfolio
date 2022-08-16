@@ -51,7 +51,7 @@
     background-color: #0071e3;
     font-weight: bolder;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     margin-left: 4rem;
     margin-bottom: 15px;
@@ -85,6 +85,7 @@
         flex-direction: column;
         height: 80vh;
     }
+
     .form-contact input {
         width: 60vw;
         height: 5vh;
