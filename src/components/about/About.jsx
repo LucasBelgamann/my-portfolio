@@ -3,9 +3,11 @@ import about from './aboutME.jpeg';
 import lucas from './portLucas.jpeg'
 import './About.css';
 import translate from './translate.png'
+import { useContext } from 'react';
+import Context from '../context/Context';
 
 export default function About() {
-  const [isTranslate, setIsTranslate] = useState();
+ const { isTranslate, setIsTranslate } = useContext(Context);
 
   function handleClick() {
     setIsTranslate(!isTranslate);
@@ -18,7 +20,7 @@ export default function About() {
             <img src={ lucas } alt="about" className='foto-about' />
         </div>
         <div className='text-about'>
-          <h1 className='title-about'>About me</h1>
+          <h1 className='title-about'>{ isTranslate ? ('Sobre mim') : ('About me')}</h1>
           <div className='line'></div>
             {isTranslate ? (<p>Eu sou Lucas Agostinho, tenho 21 anos e nasci na cidade de Pinhais no Estado do Paraná. Atualmente estou no ramo industrial, estagiando e aprendendo um pouco sobre esse ambiente, entretanto estou em busca de uma nova especialização, na área de tecnologia, mas especificamente no curso de desenvolvimento web na <a className='trybe' href='https://www.betrybe.com/' target="blank">Trybe</a>, uma das melhores escolas de programação do Brasil. Sou uma pessoa que está em constante adaptação, sempre buscando novas caminhos para percorrer.</p>)
              : 

@@ -64,7 +64,7 @@
         display: none;
     }
     .line {
-        width: 40vw;
+        width: 45vw;
         margin: 1rem auto 2rem;
     }
     .translate {
@@ -73,7 +73,7 @@
 
     .title-about {
         margin: auto;
-        width: 40vw;
+        width: 45vw;
     }
     .about {
         flex-direction: column;

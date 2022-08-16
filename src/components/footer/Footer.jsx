@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import Context from "../context/Context";
 import git from "../images/gitHub.png";
 import linkedin from "../images/linkedin.png";
 import curriculo from './curriculo.pdf';
@@ -6,6 +7,7 @@ import download from './download.png';
 import "./Footer.css";
 
 export default function Footer() {
+  const { isTranslate } = useContext(Context);
   return (
     <div>
       <div className="pai-contact" id="footer">
@@ -23,18 +25,18 @@ export default function Footer() {
             ></input>
             <div className="form">
               <div className="inputs">
-                <input type="text" name="name" placeholder="Enter your name" />
+                <input type="text" name="name" placeholder={ isTranslate ? ('Coloque seu nome') : ('Enter your name')} />
                 <textarea
                   name="message"
                   className="text-area"
-                  placeholder="Enter your menssage"
+                  placeholder={ isTranslate ? ('Coloque sua mensagem') : ('Enter your menssage')}
                 />
               </div>
               <div className="btns-form">
-                <button type="submit">Submit</button>
+                <button type="submit">{ isTranslate ? ('Enviar') : ('Submit')}</button>
                 <button type="button" className="down">
                   <a href={ curriculo } download>
-                    DOWNLOAD CV
+                  { isTranslate ? ('Baixar CV') : ('Download CV')}
                   </a>
                 </button>
               </div>

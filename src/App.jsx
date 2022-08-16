@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.css';
+import Provider from './components/context/Provider';
 import Routes from './components/routes/Routes'
 
 function App() {
   return (
-    <div className="App">
+    <Provider>
       <Routes />
-      {/* <Main /> */}
-    </div>
+    </Provider>
   )
 }
 
