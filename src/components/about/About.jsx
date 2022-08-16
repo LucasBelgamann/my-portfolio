@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import about from './aboutME.jpeg';
+import emoji from './lucasEmoji.jpg';
 import lucas from './portLucas.jpeg'
 import './About.css';
 import translate from './translate.png'
@@ -17,7 +17,7 @@ export default function About() {
     <div>
       <div className='about' id="about-me">
         <div>
-            <img src={ lucas } alt="about" className='foto-about' />
+            <img src={ emoji } alt="about" className='foto-about' />
         </div>
         <div className='text-about'>
           <h1 className='title-about'>{ isTranslate ? ('Sobre mim') : ('About me')}</h1>

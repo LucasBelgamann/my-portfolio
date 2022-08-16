@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import css from "../hards/images/css.png";
 import gitGub from "../hards/images/gitGub.png";
 import html from "../hards/images/html.png";
@@ -13,8 +13,10 @@ import reactRouter from "../hards/images/reactRouter.png";
 import arrowlefth from "./images2/arrow-lefth.png";
 import arrowRight from "./images2/arrow-right.png";
 import "./HardsNew.css";
+import Context from "../context/Context";
 
 export default function HardsNew() {
+  const { isTranslate } = useContext(Context);
   let currentItem = 0;
   const maxItems = 10;
   console.log(maxItems);
@@ -40,7 +42,7 @@ export default function HardsNew() {
 
   return (
     <div className="container">
-      <h2 id="title-hardss">Hards <span>skills</span></h2>
+      <h2 id="title-hardss">{isTranslate ? "Habilidades" : "Hards skills"}</h2>
       <button
         type="button"
         onClick={({ target }) => handleArrow(target)}

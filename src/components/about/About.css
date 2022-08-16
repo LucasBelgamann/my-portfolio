@@ -9,6 +9,7 @@
 
 .foto-about {
     width: 20vw;
+    margin-top: 3rem;
     border-radius: 25px;
 }
 
@@ -16,7 +17,7 @@
     width: 45vw;
     font-size: 20px;
     text-align: justify;
-    color: grey;
+    color: #3D3F3C;
     font-family: 'Roboto', sans-serif;
     line-height: 3rem;
 }

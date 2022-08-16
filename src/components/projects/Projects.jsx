@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import "./Projects.css";
 import background from '../images/backEnd.jpg'
 import backgroundFront from '../images/FrontEnd.jpeg'
+import Context from "../context/Context";
 
 export default function Projects() {
+  const { isTranslate } = useContext(Context);
   return (
     <div>
       <div className="cards-projects" id="projects">
@@ -15,7 +17,7 @@ export default function Projects() {
             </h2>
             <img src={backgroundFront} />
             <Link to="/front-end">
-              <button type="button">See more...</button>
+              <button type="button">{ isTranslate ? ('Saiba mais...') : ('See more...')}</button>
             </Link>
           </div>
         </div>
@@ -26,7 +28,7 @@ export default function Projects() {
             </h2>
             <img src={background} />
             <Link to="/back-end">
-              <button type="button">See more...</button>
+              <button type="button">{ isTranslate ? ('Saiba mais...') : ('See more...')}</button>
             </Link>
           </div>
         </div>
